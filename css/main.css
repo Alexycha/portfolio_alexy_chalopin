@@ -2359,7 +2359,14 @@ input::-moz-focus-inner {
   padding: 10px;
   border-radius: 8px;
   object-fit: cover;
+  transition: ease-in-out 0.3s;
 }
+
+.timeline__desc .web img:hover{
+  transform: scale(1.1);
+  background-color: rgba(211, 211, 211, 0.514);
+}
+
 
 
 /* ------------------------------------------------------------------- 
@@ -3296,8 +3303,21 @@ input::-moz-focus-inner {
   }
 
 }
-
-
+.loisirs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.loisirs img{
+  width: 23%;
+  height: 400px;
+  object-fit: cover;
+  transition: ease-in-out 0.3s;
+}
+.loisirs img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
 
 /* ===================================================================
  * # contact
