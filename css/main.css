@@ -1564,7 +1564,7 @@ input::-moz-focus-inner {
 
 .item-title {
   font-family: "bold";
-  font-size: 3.6rem;
+  font-size: 3rem;
   font-weight: 1000;
   line-height: 1.222;
   margin-top: 0;
@@ -1658,7 +1658,7 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky {
-  background-color: #050505;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   position: fixed;
   top: 0;
   left: 0;
@@ -1961,7 +1961,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100vh;
   min-height: 792px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/mainback.png');
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url('../images/mainback.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -2090,6 +2090,11 @@ input::-moz-focus-inner {
     font-size: 7rem;
   }
 
+  .picc {
+    width: 100px;
+    background-size: cover;
+  }
+
 }
 
 @media screen and (max-width:1024px) {
@@ -2155,6 +2160,10 @@ input::-moz-focus-inner {
 
   .intro-grid {
     left: 15%;
+  }
+
+  p.lead {
+    font-size: 1.5rem;
   }
 
 }
@@ -2329,6 +2338,18 @@ input::-moz-focus-inner {
 /* -------------------------------------------------------------------
  * ## timeline
  * ------------------------------------------------------------------- */
+/*.about-experience {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../images/back7.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}*/
+
+.about-experience-bis {
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url('../images/back7.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .about-experience__timeline {
   margin-top: 1.6rem;
 }
@@ -2407,7 +2428,7 @@ input::-moz-focus-inner {
   padding-left: 5.6rem;
   padding-bottom: .8rem;
   margin-top: 2.8rem;
-  min-height: 35.6rem;
+  min-height: 20rem;
 }
 
 .timeline .timeline__block:last-child {
@@ -2449,7 +2470,7 @@ input::-moz-focus-inner {
 }
 
 .timeline__header h5 {
-  font-size: 2.1rem;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 1.333;
   margin-top: 0;
@@ -3423,7 +3444,9 @@ input::-moz-focus-inner {
 .s-contact {
   padding-top: 18.4rem;
   padding-bottom: 6.4rem;
-  background-color: #050505;
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)), url('../images/back5.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .contact-main a {
